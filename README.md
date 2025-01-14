@@ -1,5 +1,3 @@
-FLASHER
-
 <!DOCTYPE html>
 <html>
 <body>
