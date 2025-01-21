@@ -79,6 +79,13 @@
     </style>
     <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
   </head>
+
+	<script>
+  if (!("serial" in navigator || "usb" in navigator)) {
+    alert("This page requires a browser that supports Web Serial or Web USB APIs. Please use Google Chrome or Microsoft Edge.");
+  }
+	</script>
+	
   <body>
     <div class="content">
       <h1>nRFBox_V2-2-1_Flasher</h1>
